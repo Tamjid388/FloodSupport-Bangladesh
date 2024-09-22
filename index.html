@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Tailwind & DaisyUi -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    .b1 {
+      border: 2px solid black;
+    }
+
+    .b2 {
+      border: 2px solid red;
+    }
+  </style>
+  <body class="container mx-auto">
+    <header class="sticky z-50 top-0 mb-20">
+      <div class="bg-green-300 mx-auto ">
+        <nav class="lg:flex lg:justify-between items-center bg-green-200 p-4">
+        <div class="">
+            <button class="btn btn-active btn-secondary">Blog</button>
+        </div>  
+          <div class="flex items-center  space-x-5">
+            <img src="assets/logo.png" alt="" />
+            <h1 class="text-xl font-semibold">Donate Bangladesh</h1>
+          </div>
+          <div class="flex items-center ">
+            <img src="assets/coin.png" alt="" />
+            <h1 class="whitespace-nowrap text-xl font-semibold">5500 BDT</h1>
+          </div>
+        </nav>
+      </div>
+
+      <div class="bg-green-100 hidden">
+        <button class="btn btn-active btn-secondary">Secondary</button>
+        <button class="btn btn-active btn-secondary">Secondary</button>
+      </div>
+    </header>
+
+  </body>
+</html>
