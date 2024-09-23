@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <section id="history" class="">
+    <h1>History Page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur
+       adipisicing elit. Ratione
+        facere alias sapiente laborum laudantium cupiditate
+         facilis ab nulla. Ab, earum?</p>
+
+         <div id="history-list" class="b1">
+
+         </div>
+   </section>
+
+
+   <!-- Date -->
+   
+
+
+
+  <script>
+const inputValue=200
+const historyTitle=document.createElement('p');
+historyTitle.innerText=
+`${inputValue}Taka is Donated for famine-2024 at Feni, Bangladesh`
+document.getElementById('history-list').appendChild(historyTitle)
+
+const today=new Date();
+const currentDateTime = today.toLocaleString();
+console.log(currentDateTime);
+
+  </script>
+  
+    
+</body>
+</html>
