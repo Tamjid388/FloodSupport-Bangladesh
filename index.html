@@ -99,7 +99,7 @@
             </button>
 
             <!-- Modal -->
-            <dialog id="my_modal_1" class="modal ">
+            <!-- <dialog id="my_modal_1" class="modal ">
               <div class="modal-box text-center">
                 <h3 class=" font-bold text-2xl">Congrates !</h3>
                 <div class="flex justify-center my-2">
@@ -110,14 +110,29 @@
                 <h2 class="text-2xl font-bold">Successfully</h2>
                 <div class="modal-action">
                   <form method="dialog " >
-                    <div class="flex justify-center my-2 ">
+                   
                       <button class="btn mx-auto font-bold">Close Confirmation</button>
-                    </div>
+                   
                     
                   </form>
                 </div>
               </div>
-            </dialog>
+            </dialog> -->
+
+            <!-- Open the modal using ID.showModal() method -->
+<!-- <button class="btn" onclick="my_modal_1.showModal()">open modal</button> -->
+<dialog id="my_modal_1" class="modal">
+  <div class="modal-box">
+    <h3 class="text-lg font-bold">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
              <!-- Modal Ends -->
           </div>
         </div>
@@ -229,7 +244,8 @@
 
     <!-- History -->
      <section id="history" class="hidden">
-      <h1>History Page</h1>
+      <h1 class="font-bold text-red-400 text-center text-3xl">History Page</h1>
+      <hr>
      
 
            <div id="history-list" class="">

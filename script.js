@@ -29,15 +29,17 @@ donationButton.addEventListener('click',function(){
 
 
 // ....................................
-// ReusableFUNCTION
+// ReusableFUNCTIONs
 
-function modalfnc(event){
+function modalfnc(){
     document.getElementById('my_modal_1').showModal(); 
     
-    event.preventDefault()
+    
     
 }
 
+
+// ReusableFUNCTIONs End
 
 
 document.getElementById('donate-btn').
@@ -72,11 +74,10 @@ document.getElementById('donate-btn').
             document.getElementById('my-balance').innerText = remainingBlance;
 
 
-// open Modal
-// document.getElementById('my_modal_1').showModal();
 
 
-modalfnc()
+
+
 
 
 
@@ -87,8 +88,9 @@ historyTitle.innerText=
 `${inputValue}Taka is Donated for famine-2024 at Feni, Bangladesh`
 document.getElementById('history-list').appendChild(historyTitle);
 
-
-
+// open Modal
+// document.getElementById('my_modal_1').showModal();
+modalfnc()
 
 
 
