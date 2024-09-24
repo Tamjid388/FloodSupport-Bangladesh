@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header class="container mx-auto">
+    <div class="bg-[#F9F7F3] mx-auto">
+      <nav class="lg:flex lg:justify-between items-center p-4 lg:flex-row flex-col space-y-4">
+        <div class="flex justify-center">
+          <button class="hover: btn px-8 border-0 font-bold text-xl bg-[#B4F461]" id="home">
+        <a href="index.html">Home</a>
+          </button>
+        </div>
+        <div class="flex items-center space-x-5 justify-center">
+          <img src="assets/logo.png" alt="" />
+          <h1 class="text-xl font-semibold">Donate Bangladesh</h1>
+        </div>
+        <div class="flex items-center justify-center">
+          <img src="assets/coin.png" alt="" />
+          <h1 class="whitespace-nowrap text-xl font-semibold">
+            <span class="mybalance" id="my-balance">5500</span> BDT</h1>
+        </div>
+      </nav>
+    </div>
+  </header>
+ 
+
+<main class="container mx-auto">
+  <h1 class="text-4xl font-bold my-8">Important Faq</h1>
+  <div class="join join-vertical w-full">
+    <div class="collapse collapse-arrow join-item border-base-300 border">
+      <input type="radio" name="my-accordion-4" checked="checked" />
+      <div class="collapse-title text-xl font-medium">
+        What is the DOM in JavaScript?</div>
+      <div class="collapse-content">
+        <p>The DOM (Document Object Model) is a programming interface for web documents.</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow join-item border-base-300 border">
+      <input type="radio" name="my-accordion-4" checked="checked" />
+      <div class="collapse-title text-xl font-medium">How do you select an element by its ID in the DOM?</div>
+      <div class="collapse-content">
+        <p>You can select an element by its ID using the <code>document.getElementById('elementId')</code> method in JavaScript.</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow join-item border-base-300 border">
+      <input type="radio" name="my-accordion-4" checked="checked" />
+      <div class="collapse-title text-xl font-medium">How can you create a new HTML element using JavaScript?</div>
+      <div class="collapse-content">
+        <p>You can create a new element using <code>document.createElement('tagName')</code>. For example, <code>document.createElement('div')</code> creates a new <code>&lt;div&gt;</code> element that can be appended to the DOM</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow join-item border-base-300 border">
+      <input type="radio" name="my-accordion-4" />
+      <div class="collapse-title text-xl font-medium">How do you append a new element to the DOM?</div>
+      <div class="collapse-content">
+        <p>Once a new element is created, it needs to be added to the document. This can be done by appending the new element to an existing parent element.
+           The new element is then added as a child at the end of the parent’s list of child nodes.</p>
+      </div>
+    </div>
+    <div class="collapse collapse-arrow join-item border-base-300 border">
+      <input type="radio" name="my-accordion-4" />
+      <div class="collapse-title text-xl font-medium">How do you change the text of an element in JavaScript?</div>
+      <div class="collapse-content">
+        <p>To modify the text content of an existing element, you can update its properties responsible for text, such as the inner text. This replaces
+           the existing text content with new text, allowing you to dynamically update the page content.</p>
+      </div>
+    </div>
+  </div>
+</main>
+  
+    
+</body>
+</html>
